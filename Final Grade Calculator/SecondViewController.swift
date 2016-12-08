@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SecondViewController.swift
 //  Final Grade Calculator
 //
 //  Created by Sedona Falco on 12/6/16.
@@ -8,21 +8,19 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class SecondViewController: UIViewController {
 
-    @IBOutlet weak var currentGradeLabel: UITextField!
+    @IBOutlet weak var desiredGrade: UITextField!
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-       
+
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
-        override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-            let dvc = segue.destination as! SecondViewController
     
-    }
+
 }

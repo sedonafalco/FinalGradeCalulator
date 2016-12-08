@@ -14,6 +14,8 @@
 		0B3B09F81DF708D00053CB7E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B3B09F61DF708D00053CB7E /* LaunchScreen.storyboard */; };
 		0B3B0A031DF708D00053CB7E /* Final_Grade_CalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B0A021DF708D00053CB7E /* Final_Grade_CalculatorTests.swift */; };
 		0B3B0A0E1DF708D00053CB7E /* Final_Grade_CalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B0A0D1DF708D00053CB7E /* Final_Grade_CalculatorUITests.swift */; };
+		0B3B0A1C1DF7829D0053CB7E /* Calculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B0A1B1DF7829D0053CB7E /* Calculate.swift */; };
+		0B3B0A201DF7844A0053CB7E /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B3B0A1F1DF7844A0053CB7E /* SecondViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		0B3B0A091DF708D00053CB7E /* Final Grade CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Final Grade CalculatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B3B0A0D1DF708D00053CB7E /* Final_Grade_CalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Final_Grade_CalculatorUITests.swift; sourceTree = "<group>"; };
 		0B3B0A0F1DF708D00053CB7E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B3B0A1B1DF7829D0053CB7E /* Calculate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Calculate.swift; sourceTree = "<group>"; };
+		0B3B0A1F1DF7844A0053CB7E /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +102,9 @@
 			isa = PBXGroup;
 			children = (
 				0B3B09ED1DF708D00053CB7E /* AppDelegate.swift */,
+				0B3B0A1B1DF7829D0053CB7E /* Calculate.swift */,
 				0B3B09EF1DF708D00053CB7E /* ViewController.swift */,
+				0B3B0A1F1DF7844A0053CB7E /* SecondViewController.swift */,
 				0B3B09F11DF708D00053CB7E /* Main.storyboard */,
 				0B3B09F41DF708D00053CB7E /* Assets.xcassets */,
 				0B3B09F61DF708D00053CB7E /* LaunchScreen.storyboard */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B3B0A201DF7844A0053CB7E /* SecondViewController.swift in Sources */,
+				0B3B0A1C1DF7829D0053CB7E /* Calculate.swift in Sources */,
 				0B3B09F01DF708D00053CB7E /* ViewController.swift in Sources */,
 				0B3B09EE1DF708D00053CB7E /* AppDelegate.swift in Sources */,
 			);
@@ -505,6 +513,7 @@
 				0B3B0A141DF708D00053CB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B3B0A151DF708D00053CB7E /* Build configuration list for PBXNativeTarget "Final Grade CalculatorTests" */ = {
 			isa = XCConfigurationList;
@@ -513,6 +522,7 @@
 				0B3B0A171DF708D00053CB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0B3B0A181DF708D00053CB7E /* Build configuration list for PBXNativeTarget "Final Grade CalculatorUITests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +531,7 @@
 				0B3B0A1A1DF708D00053CB7E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
